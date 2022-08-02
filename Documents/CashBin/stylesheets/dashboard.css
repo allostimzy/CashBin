@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.firstSection {
+    display: inline;
+}
+
+.imageTransparent {
+    position: absolute;
+    left: 35.1%;
+    right: 53.42%;
+    top: 24.77%;
+    bottom: 67.4%;
+}
+.user {
+    display: inline;
+    
+}
+.username {
+    position: absolute;
+    width: 291px;
+    height: 25px;
+    right: 160px;
+    top: 52px;
+}
+.userImage {
+    position: absolute;
+    width: 54px;
+    height: 47px;
+    right: 100px;
+    top: 50px;
+}
+.user p {
+    text-align: right;
+    align-items: center;
+}
+.user span {
+    color: #99cc64;
+    font-weight: 700;
+}
+.imageDot {
+    position: absolute;
+}
+.accountone {
+    position: absolute;
+    width: 176px;
+    height: 108px;
+    right: 439px;
+    top: 150.16px;
+
+    background: #E9E9E9;
+    mix-blend-mode: normal;
+    border-radius: 0px 20px;
+}
+.accountTwo {
+    position: absolute;
+    width: 257.11px;
+    height: 108.16px;
+    right: 100px;
+    top: 150px;
+    background: #E9E9E9;
+    mix-blend-mode: normal;
+    border-radius: 0px 20px;
+}
+.accountone p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #515050;
+    margin-top: 20px;
+
+}
+.accountone span {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: right;
+    right: 19px;
+    top: 40px;
+    position: absolute;
+}
+.accountTwo p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #515050;
+    margin-top: 20px;
+
+}
+.accountTwo span {
+    font-weight: 400;
+    font-size: 48px;
+    text-align: right;
+    right: 19px;
+    top: 40px;
+    position: absolute;
+}
+.accountTwo img {
+    margin-left: 20px;
+    margin-top: 7px;
+}
+/* for second section div */
+
+.image {
+    position: absolute;
+    left: 6.33%;
+    right: 52.42%;
+    top: -30.06%;
+    bottom: 8.31%;
+}
+.checkSecond {
+    position: relative;
+    width: auto;
+    height: 146px;
+    left: 0px;
+    top: 396px;
+    background: #99CC63;
+    border-radius: 15px;
+}
+.textMsg {
+    text-align: right;
+
+   
+}
+.textMsg p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: right;
+    width: 529px;
+    height: 50px;
+    color: #515050;
+    position: relative;
+    left: 650px;
+top: 45px;
+
+}
+.textMsg h3 {
+    position: relative;
+    width: 376px;
+    height: 34px;
+    left: 800px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: right;
+    color: #515050;
+}
+
+.newTrash {
+    position: relative;
+    width: 194px;
+    height: 136px;
+    left: 700px;
+    top: 428px;
+    padding-top: 50px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 5px dashed #DCDCDC;
+    border-radius: 20px;
+}
+.newTrash:hover {
+    position: relative;
+    width: 194px;
+    height: 136px;
+    left: 700px;
+    top: 428px;
+    padding-top: 50px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 5px dashed #99CC63;
+    border-radius: 20px;
+}
+.earnMore {
+    position: absolute;
+    width: 194px;
+    height: 146px;
+    left: 980px;
+    top: 575px;
+    background: #99CC63;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.earnMore img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #515050;
+}

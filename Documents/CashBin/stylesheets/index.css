@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*the box by the right*/
+
+.boxImg{
+    position: absolute;
+    left: 0%;
+    right: 85%;
+    top: 0%;
+    bottom: 73.33%;
+}
+
+/* The Welcome Page*/
+.landingPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin-top: 230px;
+    font-family:Montserrat;
+    font-weight:700;
+    font-Size: 40px;
+    line-height: 29px;
+}
+
+.welcome{
+  
+    font-family:Montserrat;
+
+}
+
+p{
+    font-size: 22px;
+    padding-bottom: -20PX;
+    
+}
+
+/* The landing Page Image*/
+.landingimg{
+    position: absolute;
+    position: absolute;
+    width: 759px;
+    height: 536px;
+    left: 495px;
+    top: 69px;
+    border-radius: 27px;
+}
+
+span{
+    color: #99CC63;
+}
+
+button{
+    position: absolute;
+    width:160px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 27px;
+    color: #515050;
+    border-radius: 10px;
+    background-color: #99CC63;
+    border: none;
+    padding-bottom: 10px;
+}
+/*the curve at the footer*/
+.footerCurve{
+    height: 50px;
+    width: 1000px;
+    justify-content: center;
+    border-radius: 200px 200px 0px 0px;
+    margin-left: 150px;
+    background: rgba(153, 204, 99, 0.44);
+    transform: rotate(0.51deg);
+}
+.arrowImg{
+    margin-top: 10px;
+    margin-left: 10px;
+}

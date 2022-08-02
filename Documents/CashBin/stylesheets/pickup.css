@@ -1,0 +1,125 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container{
+  width: 100vw !important;
+}
+.main-container .header{
+  height: 146px;
+  width: 100vw;
+  background-color: #99cc63;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .header h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh- 146px);
+  margin-top: 50px;
+  width: 95vw;
+}
+
+.main-container .content .map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-container .content .content-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   margin-left: 150px;
+} 
+
+.main-container .content .content-left .check-thank{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-container .content .content-left .check-thank h1{
+  width: 489px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main-container .content .content-left .trash-details{
+  background-color: #99cc63;
+  border-radius: 20px;
+  width: 489px;
+  height: 182px;
+  margin-top: 35px;
+}
+
+.trash-details h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.trash-details p{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 15px 20px;
+}
+
+.content-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.content-btn .btn1{
+  width: 191px;
+  height: 39px;
+  border: 1px solid #1f1f11;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.content-btn .btn2{
+  width: 191px;
+  height: 39px;
+  border: none;
+  background-color: #99cc63;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+}

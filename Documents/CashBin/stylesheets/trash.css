@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    background-color:#F6F6F6;
+}
+
+.mainLogIn{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.coinCount{
+    height: 80px;
+    width: 120px;
+    border-radius: 0px 15px 0px 15px ;
+    border: 3px solid #AECC57;
+    text-align: center;
+    margin-top: 50px;
+    font-Weight:500;
+    text-align:center;
+    box-shadow: rgba(0, 0, 0, 0.25) 
+    0px 54px 55px, rgba(0, 0, 0, 0.12) 
+    0px -12px 30px, rgba(0, 0, 0, 0.12) 
+    0px 4px 6px, rgba(0, 0, 0, 0.17) 
+    0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.formLogIn{
+    background-color:#AECC57 ;
+   
+    Height:300px;
+    width:250px;
+    border-Radius:10px;
+    text-align: center;
+   
+    
+}
+
+input{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    border-radius: 15px;
+    overflow: auto;
+}
+input::placeholder {
+    padding: 20px;
+}
+
+.earnedCoin{
+    font-size: 12px;
+}
+
+button{
+    background-color: #AECC57;
+    width: 200px;
+    height: 35px;
+    margin-left: 560px;
+    margin-top: 50px;
+    border-radius: 15px;
+    position: absolute;
+    
+}
+
+.footerImg{
+   margin-top:-100px;
+   margin-left: 60px;
+
+}
+
+.numberSpan{
+    font-size: 25px;
+}
+.content-btn {
+    text-decoration: none;
+}
+.earnSpan {
+    font-size: 25px;
+}
